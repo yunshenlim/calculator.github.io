@@ -1,12 +1,14 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background: url("/photo-1505299344687-ee45ad431f9b.webp");
+	background: url("/photo-1505299344687-ee45ad431f9b.webp") no-repeat;
 }
 #container{
 	width: 1000px;
 	height: 550px;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
 	margin: 20px auto;	
+    align-items: center;
+
 }
 #calculator{
 	width: 320px;
